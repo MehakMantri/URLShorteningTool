@@ -11,6 +11,7 @@ std::string shortenURL(const std::string &longURL,
   // Bitly API endpoint for shortening URLs
   std::string url = "https://api-ssl.bitly.com/v4/shorten";
 
+
   // JSON payload for the API request
   json payload = {{"long_url", longURL}};
 
